@@ -1,7 +1,8 @@
 @import './layout.css';
 
 :root{
-  --main-color: 
+  --main-color: #e5e5e5;
+  --menu-color: #F7F6FF;
 }
 
 body,
@@ -18,5 +19,5 @@ body{
 }
 
 body{
-  background-color: #e5e5e5;
+  background-color: var(--main-color);
 }
