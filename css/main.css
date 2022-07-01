@@ -3,6 +3,7 @@
 :root{
   --main-color: #e5e5e5;
   --menu-color: #F7F6FF;
+  --text-color: #02577A;
 }
 
 body,
@@ -21,3 +22,4 @@ body{
 body{
   background-color: var(--main-color);
 }
+
