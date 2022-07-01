@@ -12,6 +12,7 @@ body *{
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
 }
 
 body{
@@ -37,8 +38,17 @@ body{
     background-color: #c4c4c4;
     margin-top: 24px;
   }
+  
+  /* NAVBAR */
+  /* .menu-item{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    align-items: center;
+    margin-top: 32px;
+  } */
 
-  .menu-item{
+  .menu{
     display: flex;
     flex-direction: column;
     gap: 34px;
@@ -55,10 +65,16 @@ body{
     border-bottom-left-radius: 28px;
     border-top-left-radius: 28px;
   }
-  .active > a{
+
+  .active{
     padding: 16px 32px 16px 25px;
     display: inline-block;
+    }
+
+  .menu > a > span{
+    display: none;
   }
+
 
 /* menu section - end */
 
