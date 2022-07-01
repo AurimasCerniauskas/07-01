@@ -20,6 +20,24 @@ body{
 
 
 /* menu section - start */
+  .logo{
+    margin: 52px auto 0;
+    width: 68px;
+  }
+  .logo > img{
+    width: 68px;
+    height: 34px;
+  }
+  .logo:after{
+    content: '';
+    display: block;
+    width: 62px;
+    height: 2px;
+    background-color: #c4c4c4;
+    margin-top: 24px;
+  }
+
+  
 /* menu section - end */
 
 /* main section - start */
