@@ -53,8 +53,9 @@ body{
     flex-direction: column;
     gap: 34px;
     align-items: center;
-    margin-top: 32px;
+
   }
+  
 
   .active{
     margin-left: 11px;
@@ -70,12 +71,61 @@ body{
     padding: 16px 32px 16px 25px;
     display: inline-block;
     }
+    .icon-bg {
+      border-radius: 25px 0 0 25px;
+      margin-left: 11px;
+      padding: 0;
+      background-color: transparent;
+      margin: 34px 0 34px 11px;
+      display: flex;
+      align-items: center;
+    }
 
-  .menu > a > span{
-    display: none;
-  }
-
-
+    .icon-bg a {
+      position: relative;
+      margin-left: 56px;
+      color: #c4c4c4;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.5s linear;
+      transition-delay: 0.2s;
+    }
+  .icon-bg:last-child .icon {
+      left: 30px;
+    }
+    .icon-bg:last-child a {
+      margin-left: 49px;
+    }
+    .icon-bg.active {
+      padding: 16px;
+      background-color: #fff;
+    }
+    .nav .icon-bg.active .icon {
+      left: 26px;
+    }
+    .icon-bg.active a {
+      color: var(--secondary-color);
+      margin-left: 42px;
+    }
+    .icon-bg .icon {
+      position: relative;
+      left: 37px;
+    }
+    .icon-bg a:hover {
+      text-decoration: underline;
+    }
+    .menu:hover {
+      max-width: 206px;
+      width: 206px;
+    }
+    .menu:hover hr {
+      width: 128px;
+      max-width: 128px;
+    }
+    .menu:hover a {
+      visibility: visible;
+      opacity: 1;
+    }
 /* menu section - end */
 
 /* main section - start */
