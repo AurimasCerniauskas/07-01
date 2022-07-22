@@ -1,4 +1,4 @@
-
+@import '../css/home.css';
 .nav {
   background-color: var(--nav-bg-color);
   max-width: 100px;
@@ -80,9 +80,9 @@
 
 footer {
   position: absolute;
-  bottom: 0px;
+  /* bottom: 0px; */
   width: 346px;
-  left: 50%;
+  left: calc(50% + 50px);
   transform: translateX(-50%);
   text-align: center;
   color: var(--secondary-color);
